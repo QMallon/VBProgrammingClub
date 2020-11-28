@@ -1,6 +1,6 @@
 @echo off
-set filepath=D:\Jenkins\workspace\StudentProfileVB\VBstudentProfile\VBStudentProfileTest\TestResults
-set outputpath=D:\Jenkins\workspace\StudentProfileVB\VBstudentProfile\VBStudentProfileTest\
+set filepath=D:\Jenkins\workspace\VBProgrammingClub\ProgrammingClub\ProgrammingClub.Tests\TestResults
+set outputpath=D:\Jenkins\workspace\VBProgrammingClub\ProgrammingClub\ProgrammingClub.Tests\
 echo %filepath%
 D:
 cd %filepath%
