@@ -112,6 +112,7 @@
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="Controllers\HomeControllerTest.vb" />
+    <Compile Include="UnitTest1.vb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
