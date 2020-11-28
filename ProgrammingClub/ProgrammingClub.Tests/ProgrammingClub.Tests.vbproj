@@ -118,6 +118,7 @@
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CodeCoverage.runsettings" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
