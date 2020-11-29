@@ -8,11 +8,22 @@ Imports System.Web.Routing
 Public Module RouteConfig
     Public Sub RegisterRoutes(ByVal routes As RouteCollection)
         routes.IgnoreRoute("{resource}.axd/{*pathInfo}")
-
+        routes.MapMvcAttributeRoutes()
         routes.MapRoute(
             name:="Default",
             url:="{controller}/{action}/{id}",
             defaults:=New With {.controller = "Home", .action = "Index", .id = UrlParameter.Optional}
         )
+        routes.MapRoute(
+           name:="Project",
+           url:="{controller}/{action}/{id}",
+           defaults:=New With {.controller = "Project", .action = "Index", .id = UrlParameter.Optional}
+       )
+        routes.MapRoute(
+           name:="Projects",
+           url:="{controller}/{action}/{id}",
+           defaults:=New With {.controller = "projects", .action = "Index", .id = UrlParameter.Optional}
+       )
+
     End Sub
 End Module
